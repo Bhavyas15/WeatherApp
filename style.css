@@ -1,0 +1,150 @@
+
+*{
+    padding: 0;margin: 0;
+}
+.text-white{
+    color: white;
+}
+/* .alert{
+    transition:  1s;
+} */
+.everythinggg{
+    min-width: 100vw;
+    min-height: 97vh;
+    background-image: linear-gradient(-135deg, purple,blue,aqua);
+    display: flex;
+    justify-content: uns;
+    align-items: center;
+    margin-top: -30px;
+}
+.nav-item{
+    padding-left: 4rem;
+    /* padding-right: 4rem; */
+}
+.c{
+    flex: 1;
+    /* background-color: black; */
+    /* FONT-WEIGHT: 100; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -16px;
+}
+h5{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    max-height: 8vh;
+    min-width: 25vw;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 7px 0 7px 20px;
+}
+.simg{
+    max-width: 7vh;
+    max-height: 7vh;
+    margin-left: 10px;
+}
+.s{
+    display: flex;
+    margin-top: -40px;
+    /* min-width: 60vw; */
+}
+.info{
+    display: flex;
+    background-color: #0062cc;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    border-radius: 12%;
+    /* max-width: 20vw; */
+}
+.convert .list-group-item{
+    display: flex;
+    align-items: center;
+}
+.temp{
+    min-width: max-content;
+}
+.alignbtn{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+.convertbtn{
+    min-width: 40px;
+    min-height: 30px;
+    border: 0;
+    background-color: white;
+}
+.mainthings{
+    height: 5;
+    padding: 1rem 1.25rem 0 1.25rem;
+    min-height: 9rem;
+}
+.wimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.wimg img{
+    z-index: 1;
+    width: 60%;
+    height: 60%;
+}
+.icon{
+    margin-right: 1rem;
+}
+.list-group-item{
+    display: flex;
+    align-items: center;
+}
+.list-group-item img{
+    height: 100%;
+    width: 10%;
+}
+.d{
+    flex: 1;
+}
+.aside{
+    display: flex;
+}
+.grd{
+    padding: 3px auto 3px;
+}
+.refine{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.st{
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.round{
+    font-size: 15px;
+    max-height: 25px;
+    padding: 0px auto 0px;
+    border: 0;
+    max-width: 9rem;
+    /* background-color: red; */
+}
+.top{
+    margin-top: 20px;
+}
+.cen{
+    margin-left: 2.5rem;
+    border-radius: 50%;
+}
+.round img{
+    min-height: 20px;
+    min-width: 15px;
+}

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Weather App</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+        <a class="navbar-brand text-white" href="#"><b>WeatherWise</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cities
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Delhi</a>
+                        <a class="dropdown-item" href="#">Bengaluru</a>
+                        <a class="dropdown-item" href="#">New York</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Help</a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        <strong>Having a good day!!!</strong>     Check Out Todays Weather
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="everythinggg">
+        <div class="c">
+            <div class="all">
+                <div class="s">
+                    <input type="text" class="search" placeholder="Search">
+                    <img src="images/search.webp" alt="" class="simg">
+                </div>
+                <div class="info">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body mainthings">
+                            <h5 class="city">City Name</h5>
+                            <p class="wimg">
+                                <img src="images/clouds.png" alt="srch" class="wimage">
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <div class="convert">
+                                <li class="list-group-item">
+                                    <img class="icon" src="images/Temperature-PNG-Clipart.png" alt="">
+                                    <div class="temp">42 C </div>
+                                    <div class="alignbtn">
+                                        <button class="convertbtn">F</button>
+                                    </div>
+                            </div>
+                            </li>
+                            <li class="list-group-item "><img class="icon" src="images/humidity.jpeg" alt="">
+                                <div class="humidity">Humidity</div>
+                            </li>
+                            <li class="list-group-item "><img class="icon" src="images/wspeed.png" alt="">
+                                <div class="wspeed">Windspeed</div>
+                            </li>
+                        </ul>
+                        <div class="mm">
+                            <li class="list-group-item"><img class="icon" src="images/mintemp.png" alt="">
+                                <div class="mini">Temp min</div>
+                            </li>
+                            <li class="list-group-item"><img class="icon" src="images/maxtemp.png" alt="">
+                                <div class="maxi">Temp max</div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d">
+            <div class="aside">
+                <div class="card text-center refine" style="width: 18rem;">
+                    <div class="card-body grd">
+                        <h5 class="card-title st one">Special title treatment</h5>
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        <div class="cen">
+                            <li class="list-group-item round top">
+                                <img class="icon" src="images/Temperature-PNG-Clipart.png" alt="">
+                                <div class="temp t1">42 C </div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/humidity.jpeg" alt="">
+                                <div class="humidity hum1">Humidity</div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/wspeed.png" alt="">
+                                <div class="wspeed w1">Windspeed</div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center refine" style="width: 18rem;">
+                    <div class="card-body grd">
+                        <h5 class="card-title two st">Special title treatment</h5>
+                        <div class="cen">
+                            <li class="list-group-item round top">
+                                <img class="icon" src="images/Temperature-PNG-Clipart.png" alt="">
+                                <div class="temp t2">42 C </div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/humidity.jpeg" alt="">
+                                <div class="humidity hum2">Humidity</div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/wspeed.png" alt="">
+                                <div class="wspeed w2">Windspeed</div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aside">
+                <div class="card text-center refine" style="width: 18rem;">
+                    <div class="card-body grd">
+                        <h5 class="card-title three st">Special title treatment</h5>
+                        <div class="cen">
+                            <li class="list-group-item round top">
+                                <img class="icon" src="images/Temperature-PNG-Clipart.png" alt="">
+                                <div class="temp t3">42 C </div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/humidity.jpeg" alt="">
+                                <div class="humidity hum3">Humidity</div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/wspeed.png" alt="">
+                                <div class="wspeed w3">Windspeed</div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center refine" style="width: 18rem;">
+                    <div class="card-body grd">
+                        <h5 class="card-title four st">Special title treatment</h5>
+                        <div class="cen">
+                            <li class="list-group-item round top">
+                                <img class="icon" src="images/Temperature-PNG-Clipart.png" alt="">
+                                <div class="temp t4">42 C </div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/humidity.jpeg" alt="">
+                                <div class="humidity hum4">Humidity</div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/wspeed.png" alt="">
+                                <div class="wspeed w4">Windspeed</div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aside">
+                <div class="card text-center refine" style="width: 18rem;">
+                    <div class="card-body grd">
+                        <h5 class="card-title five st">Special title treatment</h5>
+                        <div class="cen">
+                            <li class="list-group-item round top">
+                                <img class="icon" src="images/Temperature-PNG-Clipart.png" alt="">
+                                <div class="temp t5">42 C </div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/humidity.jpeg" alt="">
+                                <div class="humidity hum5">Humidity</div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/wspeed.png" alt="">
+                                <div class="wspeed w5">Windspeed</div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center refine" style="width: 18rem;">
+                    <div class="card-body grd">
+                        <h5 class="card-title six st">Special title treatment</h5>
+                        <div class="cen">
+                            <li class="list-group-item round top">
+                                <img class="icon" src="images/Temperature-PNG-Clipart.png" alt="">
+                                <div class="temp t6">42 C </div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/humidity.jpeg" alt="">
+                                <div class="humidity hum6">Humidity</div>
+                            </li>
+                            <li class="list-group-item round "><img class="icon" src="images/wspeed.png" alt="">
+                                <div class="wspeed w6">Windspeed</div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
