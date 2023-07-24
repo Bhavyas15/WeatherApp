@@ -217,6 +217,7 @@ dropdownItems.forEach((item) => {
     console.log(data);
     // document.querySelector(".search").innerHTML=data;
     document.querySelector(".search").value=data;
+    
     // apiUrl = `https://api.openweathermap.org/data/2.5/weather?&units=metric&q=${city}`;
     // checkWeather();
 
