@@ -176,7 +176,7 @@ document.querySelector(".six").innerHTML = sixa;
 // const apikey2 = "4ba0a72cc89421352f5c6fde070e7fcb";
 // let cityid = "524901";
 async function future(cityid,apikey2) {
-    const apiurl2 = `http://api.openweathermap.org/data/2.5/forecast?&units=metric&`;
+    const apiurl2 = `https://api.openweathermap.org/data/2.5/forecast?&units=metric&`;
     const response2 = await fetch(apiurl2 + `id=${cityid}` + `&appid=${apikey2}`);
     var data2 = await response2.json();
     console.log(data2);
